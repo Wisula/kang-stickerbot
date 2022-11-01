@@ -38,7 +38,7 @@ bot = updater.bot
 dispatcher = updater.dispatcher
 
 START_TEXT = """
-Hey! I'm {}, and I'm a bot which allows you to create a sticker pack from other stickers, images and documents!
+Hi! I'm {}, and I'm a bot which allows you to create a sticker pack from other stickers, images and documents!
 I only have a few commands so I don't have a help menu or anything like that.
 You can also check out the source code for the bot [here](https://github.com/breakdowns/kang-stickerbot)
 """.format(dispatcher.bot.first_name)
